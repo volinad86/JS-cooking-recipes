@@ -1,0 +1,50 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #fff2e5 ;
+    width: 1650px;
+    margin:0 auto; 
+}
+h1{
+font-family: 'Roboto', sans-serif;
+color: orangered;
+font-size: 55px;
+}
+.search{
+    display: flex;
+    margin-bottom: 20px;
+}
+#recherche{
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.recit{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    transition: 1s;
+}
+
+.recit:hover{
+    transform: scale(1.2); 
+}
+
+a{
+    color: #d85331;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
