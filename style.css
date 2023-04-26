@@ -48,3 +48,34 @@ a{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
+@media all and (max-width:415px){
+    body{
+        width: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .search{
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        align-self: center;
+    }
+    p{
+        text-align: center;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+        }
